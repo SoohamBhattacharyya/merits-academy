@@ -47,7 +47,7 @@ const CoursesSection = () => {
                   <span>⭐ {course.rating}</span>
                   <span>👥 {course.students}+ students</span>
                 </div>
-                <div className="course-price">${course.price}</div>
+                <div className="course-price">inr {course.price}</div>
                 <button className="view-btn">View Course</button>
               </div>
             </div>
