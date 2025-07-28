@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  min-height: calc(100vh - 200px); /* Adjust based on your header orfooter height */
+  min-height: calc(100vh - 200px); 
 }
 
 a {
@@ -22,14 +22,14 @@ button {
   cursor: pointer;
 }
 
-/* Utility classes */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
-/* Add this to App.css */
+
 .slick-prev {
   left: -30px !important;
 }
